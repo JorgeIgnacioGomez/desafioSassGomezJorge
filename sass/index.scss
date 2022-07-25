@@ -4,6 +4,16 @@
 @import url(ˈ./partials/headerˈ);
 @import url(ˈ./views/homeˈ);
 
+$primary: #000000;
+$secondary: #ff5376;
+$alternative: #302f4d;
+$text-color: #2b2b2b;
+
+$spacing-large: 6rem;
+$spacing-medium: 2.4rem;
+$spacing-small: 2rem;
+$spacing-xsmall:3rem;
+
 *{
     margin: 0;
     padding: 0;
@@ -20,12 +30,7 @@ ul{
 }
 
 h1{
-    color: yellow;
-    text-align: center;
-}
-
-p {
-    color: black;
+    color: $secondary
 }
 
 body {
@@ -122,6 +127,7 @@ h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 21px;
     line-height: 390%;
+    color: $primary
 }
 
 p {
@@ -159,5 +165,8 @@ footer {
 	max-width: 1500px;
 	display: grid;
 	grid-gap: 1.25rem;
+}
 
+p {
+    color: $primary;
 }

@@ -121,6 +121,9 @@ footer {
   width: 100%;
   height: 100%; }
 
+.letra {
+  color: #000000; }
+
 .header {
   grid-area: header;
   padding: 1.25rem;
@@ -136,57 +139,21 @@ footer {
 p {
   color: #000000; }
 
+h1 {
+  font-size: 2em; }
 
-  @media (max-width: 991.98px) {
-    .contenedor {
-        width: 100%;
-    }
-    .footer {
-        width: 100%;
-    }
-    .header {
-        width:100%;
-    }
-    .menu{
-        width: 100%;
-        } 
-    .miMarco{
-        width: 100%;
-    }
-}
+.texto, .texto__subrayado {
+  text-decoration: underline;
+  text-shadow: #2b2b2b; }
 
-@media (max-width: 767.98px) { 
-    .contenedor {
-        width: 100%;
-        }
-    .footer {
-        width: 100%;
-    }
-    .header {
-        width:100%;
-    }
-    .menu{
-        width: 100%;
-        }
-    .miMarco{
-        width: 100%;
-    }
-}
+.texto__subrayado {
+  font-size: 1.45em; }
 
-@media (max-width: 575.98px) { 
-    .contenedor {
-        width: 100%;
-        }
-    .footer {
-        width: 100%;
-    }
-    .header {
-        width:100%;
-    }
-    .menu {
-        width: 100%;
-        }
-    .miMarco {
-        width: 100%;
-        }
-    }
+p {
+  color: black; }
+
+a {
+  color: #000000; }
+
+p {
+  text-decoration: underline; }
